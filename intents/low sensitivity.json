@@ -1,0 +1,65 @@
+{
+  "templates": [
+    "low",
+    "low sensitivity"
+  ],
+  "userSays": [
+    {
+      "id": "ea7cd147-7f15-44ab-8326-1484ecc2a932",
+      "data": [
+        {
+          "text": "low"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "65bbd577-5ef4-4094-bde1-e000da7a1aad",
+      "data": [
+        {
+          "text": "low sensitivity"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "180b1da0-635b-4590-8740-c5e60faf9fae",
+  "name": "low sensitivity",
+  "auto": true,
+  "contexts": [
+    "question-5-6"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "question-5-6",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Checkout  Low Sensitivity Camera having model no. NUC-21012-F2"
+        }
+      ],
+      "defaultResponsePlatforms": [
+        "facebook"
+      ]
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

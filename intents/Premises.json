@@ -1,0 +1,54 @@
+{
+  "templates": [
+    "yes"
+  ],
+  "userSays": [
+    {
+      "id": "169651bc-13b7-4c52-a0be-e283b7aa6a20",
+      "data": [
+        {
+          "text": "yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "648eeaac-d712-4f22-85d4-874323e6d06c",
+  "name": "Premises",
+  "auto": true,
+  "contexts": [
+    "Question-1"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "Question-2",
+          "parameters": {},
+          "lifespan": 100
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Would you like to share what kind of premises, Is it? Building, Industrial Premise, Defense Establishment, or Transportation Hub"
+        }
+      ],
+      "defaultResponsePlatforms": [
+        "facebook"
+      ]
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

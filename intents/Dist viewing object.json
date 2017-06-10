@@ -1,0 +1,70 @@
+{
+  "templates": [
+    "outdoor ready",
+    "outdoor"
+  ],
+  "userSays": [
+    {
+      "id": "c29d8347-0aae-4b4f-9067-0265b0a9ec57",
+      "data": [
+        {
+          "text": "outdoor ready"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7463d618-18ff-4119-919f-29979e66c019",
+      "data": [
+        {
+          "text": "outdoor"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "0efd16d7-b5b7-473e-afab-1842a834364f",
+  "name": "Dist viewing object",
+  "auto": true,
+  "contexts": [
+    "question-10"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "question-12",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "question-10",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Tell me approx distance of viewing object in meters?"
+        }
+      ],
+      "defaultResponsePlatforms": [
+        "facebook"
+      ]
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

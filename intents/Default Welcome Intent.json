@@ -1,0 +1,101 @@
+{
+  "templates": [
+    "need ur help",
+    "good day",
+    "greetings",
+    "hello",
+    "hi"
+  ],
+  "userSays": [
+    {
+      "id": "991b5de5-e759-486b-a78b-0cb489965855",
+      "data": [
+        {
+          "text": "need ur help"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ff629558-c05b-4a5a-a2b4-0a7231f8988f",
+      "data": [
+        {
+          "text": "good day"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "82c2e5d3-f494-49dd-87b8-d45cbc962c43",
+      "data": [
+        {
+          "text": "greetings"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3bf5f47a-0f6d-40fe-9971-66c648327759",
+      "data": [
+        {
+          "text": "hello"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5a7d22e8-2fac-4e04-8510-295d08c0e82c",
+      "data": [
+        {
+          "text": "hi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "6140c601-0f1a-4c33-9a00-5763b0f29460",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [
+        {
+          "name": "Question-1",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Hi, Welcome, I believe you are looking for support in CCTV surveillance system design. Right ?",
+            "Hi, Do you need support in designing CCTV surveillance system design?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": [
+        "slack",
+        "facebook"
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ]
+}

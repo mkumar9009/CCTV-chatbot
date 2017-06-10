@@ -1,0 +1,59 @@
+{
+  "templates": [
+    "proper illumination",
+    "proper"
+  ],
+  "userSays": [
+    {
+      "id": "5f66beaf-e772-4124-b25f-5d6030623daa",
+      "data": [
+        {
+          "text": "proper illumination"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "6037c642-d2a1-4e3b-a403-df173ef39e20",
+      "data": [
+        {
+          "text": "proper"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "5c5ff8eb-74fd-4b61-8063-03bbd8e6ce77",
+  "name": "final_suggestion",
+  "auto": true,
+  "contexts": [
+    "question-13"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Suggesting you Box Camera : NBN-50022-C"
+        }
+      ],
+      "defaultResponsePlatforms": [
+        "facebook"
+      ]
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

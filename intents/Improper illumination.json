@@ -1,0 +1,70 @@
+{
+  "templates": [
+    "Improper Illumination",
+    "Improper"
+  ],
+  "userSays": [
+    {
+      "id": "7559cd54-f8bd-4ffb-b8f5-ef7ee8a72c01",
+      "data": [
+        {
+          "text": "Improper Illumination"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3b810fb6-469a-4db6-804d-dc00e1d493b0",
+      "data": [
+        {
+          "text": "Improper"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "f8536ba2-99dc-4f26-851a-3d436084c017",
+  "name": "Improper illumination",
+  "auto": true,
+  "contexts": [
+    "question-13"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "question-13",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "question-15",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Do you need camera with builtin IR illumination or external illumination ?"
+        }
+      ],
+      "defaultResponsePlatforms": [
+        "facebook"
+      ]
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

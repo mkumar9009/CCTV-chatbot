@@ -1,0 +1,65 @@
+{
+  "templates": [
+    "indoor ready",
+    "indoor"
+  ],
+  "userSays": [
+    {
+      "id": "dcb1faa0-82a9-4f9b-accd-94c2037981ae",
+      "data": [
+        {
+          "text": "indoor ready"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bacb6e83-3651-45bd-b31b-ec3ff2334cef",
+      "data": [
+        {
+          "text": "indoor"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "38167d3a-7683-4fa1-971e-c70c6eb282ad",
+  "name": "indoor ready",
+  "auto": true,
+  "contexts": [
+    "question-10"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "question-10",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "For indoors, checkout this camera model NIN-932-V03IP"
+        }
+      ],
+      "defaultResponsePlatforms": [
+        "facebook"
+      ]
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

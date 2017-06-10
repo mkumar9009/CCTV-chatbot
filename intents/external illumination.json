@@ -1,0 +1,46 @@
+{
+  "templates": [],
+  "userSays": [],
+  "id": "c3bdcbaa-c158-4c63-a80d-da5cd2646348",
+  "name": "external illumination",
+  "auto": true,
+  "contexts": [
+    "question-15"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "question-15",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "question-16",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Suggesting you model no's with external IR illuminator UFLED : NBN-50022-C\n& UFLED10-8BD"
+        }
+      ],
+      "defaultResponsePlatforms": [
+        "facebook"
+      ]
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

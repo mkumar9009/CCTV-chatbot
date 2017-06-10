@@ -1,0 +1,59 @@
+{
+  "templates": [
+    "yes"
+  ],
+  "userSays": [
+    {
+      "id": "42871dd1-4dda-45f9-b95e-0c2a98a39dd7",
+      "data": [
+        {
+          "text": "yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    }
+  ],
+  "id": "ea07efc4-12c7-40a0-8d7f-79489392319e",
+  "name": "Advance Features",
+  "auto": true,
+  "contexts": [
+    "question-10"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "question-10",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "question-11",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Great!!"
+        }
+      ],
+      "defaultResponsePlatforms": [
+        "facebook"
+      ]
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

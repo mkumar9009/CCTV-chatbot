@@ -1,0 +1,163 @@
+{
+  "templates": [
+    "worship pace",
+    "place of worship",
+    "complex",
+    "office complex",
+    "office",
+    "retail",
+    "commercial",
+    "public building",
+    "public",
+    "Commercial Building"
+  ],
+  "userSays": [
+    {
+      "id": "ec0273cf-9df6-4862-ba8e-a1d1e09f3c11",
+      "data": [
+        {
+          "text": "worship pace"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9c92a85b-1af4-4d58-bbc5-44fc5e0338ad",
+      "data": [
+        {
+          "text": "place of worship"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "48611bda-7741-4ea4-baa7-84eb6662ae06",
+      "data": [
+        {
+          "text": "complex"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "525f6fb6-f42c-4354-97d4-0acbaa6aed47",
+      "data": [
+        {
+          "text": "office complex"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f18a5dd7-aba2-4160-9030-986890066619",
+      "data": [
+        {
+          "text": "office"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1776698a-7340-45dd-8df9-0bb295a7ccf4",
+      "data": [
+        {
+          "text": "retail"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "eaaa984d-1103-4fe7-838c-9a19539230ce",
+      "data": [
+        {
+          "text": "commercial"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a9aa02c6-a7de-4a95-a9a1-0fd50183f7fd",
+      "data": [
+        {
+          "text": "public "
+        },
+        {
+          "text": "building",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "62d96ba4-654f-4340-870d-bcc426115330",
+      "data": [
+        {
+          "text": "public"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0588f957-682f-4283-8e7c-cf9f5089fb7f",
+      "data": [
+        {
+          "text": "Commercial Building"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "8e654b32-ba26-409e-9e90-23a67971fcf6",
+  "name": "Areas",
+  "auto": true,
+  "contexts": [
+    "question-3"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "question-3",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "question-4",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Let’s design the solution on the basis of areas. Pick the areas: Perimeter, Parking Ground, Main\n\nEntrance/Exits or Reception/High Focus Areas"
+        }
+      ],
+      "defaultResponsePlatforms": [
+        "facebook"
+      ]
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

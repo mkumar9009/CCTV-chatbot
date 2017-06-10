@@ -1,0 +1,74 @@
+{
+  "templates": [
+    "air base",
+    "@Premises:premises "
+  ],
+  "userSays": [
+    {
+      "id": "c7ebbb4a-0221-4638-a72e-20dde6b766c6",
+      "data": [
+        {
+          "text": "air base"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5fd03dad-c89c-4e92-8d82-35118cf4c6df",
+      "data": [
+        {
+          "text": "building",
+          "alias": "premises",
+          "meta": "@Premises",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "7eff2cd5-c29c-4c66-b1b6-ac1081e144eb",
+  "name": "Building",
+  "auto": true,
+  "contexts": [
+    "Question-2"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "question-3",
+          "parameters": {},
+          "lifespan": 50
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@Premises",
+          "name": "premises",
+          "value": "$premises"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Which type of Building: Public Building, Residential, Commercial-Mall/Retail or Hospital?"
+        }
+      ],
+      "defaultResponsePlatforms": [
+        "facebook"
+      ]
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": []
+}

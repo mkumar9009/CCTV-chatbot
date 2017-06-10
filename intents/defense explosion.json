@@ -1,0 +1,68 @@
+{
+  "templates": [
+    "explosion proof cameras",
+    "explosion proof",
+    "explosion"
+  ],
+  "userSays": [
+    {
+      "id": "3675b3f3-2388-41eb-9216-28e5c5c0929d",
+      "data": [
+        {
+          "text": "explosion proof cameras"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "7db4ee97-8fac-4daa-8066-1e7d9c6ceba6",
+      "data": [
+        {
+          "text": "explosion proof"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d10d80e4-10ef-4057-adc0-fd15ad4cfea4",
+      "data": [
+        {
+          "text": "explosion"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "4c557215-dfed-4403-a350-aeb3ff4cea0c",
+  "name": "defense explosion",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "I suggest you the explosion  proof camera having model no. MIC440AXBUD14636N."
+        }
+      ],
+      "defaultResponsePlatforms": [
+        "facebook"
+      ]
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,81 @@
+{
+  "templates": [
+    "internal",
+    "builtin",
+    "builtin illumination"
+  ],
+  "userSays": [
+    {
+      "id": "f121901b-56d7-467f-ab42-6764f16268a7",
+      "data": [
+        {
+          "text": "internal"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "38329b79-e687-48a3-8361-de6fd2016c0f",
+      "data": [
+        {
+          "text": "builtin"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fb0c1c75-24ef-4cee-b402-35658b5d83a2",
+      "data": [
+        {
+          "text": "builtin illumination"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "654b035a-037f-4873-bb51-9fe41b51656a",
+  "name": "builtin illumination",
+  "auto": true,
+  "contexts": [
+    "question-15"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "question-15",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "question-16",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Checkout this camera with IR illuminator :  NTI-50022-A3S"
+        }
+      ],
+      "defaultResponsePlatforms": [
+        "facebook"
+      ]
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

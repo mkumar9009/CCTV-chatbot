@@ -1,0 +1,248 @@
+{
+  "templates": [
+    "tell me your address",
+    "contact info",
+    "how do I contact your company",
+    "contact your creators",
+    "what is your contact info",
+    "find contacts of your creators",
+    "i want to contact your creator",
+    "how can i contact your developers",
+    "contact developers",
+    "what is your developers contact information"
+  ],
+  "userSays": [
+    {
+      "id": "b79f97a8-ebce-4a2a-8c50-b33dda32e6f9",
+      "data": [
+        {
+          "text": "tell me your address"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d6250d4f-c521-478e-9970-cbff056f628d",
+      "data": [
+        {
+          "text": "contact info"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "63eb0443-a820-4f0e-8046-07821a1f0236",
+      "data": [
+        {
+          "text": "how do I contact your company"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7f3a3bd7-03bd-4b68-ad51-a673463954bd",
+      "data": [
+        {
+          "text": "contact",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "your",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " creators"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "068dca4a-8c87-49f1-8328-79a20dece2df",
+      "data": [
+        {
+          "text": "what is "
+        },
+        {
+          "text": "your",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "contact",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " info"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "48d1a2ab-65f3-4793-bb49-d17f98ba02fc",
+      "data": [
+        {
+          "text": "find "
+        },
+        {
+          "text": "contacts",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "of",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "your",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " creators"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ddeb8a56-0971-4ec3-84cc-1d846280c96d",
+      "data": [
+        {
+          "text": "i want to "
+        },
+        {
+          "text": "contact",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "your",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " creator"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "61f9ad5a-3cfb-4299-9002-fbbd201bb0ab",
+      "data": [
+        {
+          "text": "how can i "
+        },
+        {
+          "text": "contact",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "your",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " developers"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0851f8a2-f60f-40f0-81ac-c1af66607350",
+      "data": [
+        {
+          "text": "contact",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " developers"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6378b542-6e5a-4f0d-9b36-87bfccf83889",
+      "data": [
+        {
+          "text": "what is "
+        },
+        {
+          "text": "your",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " developers "
+        },
+        {
+          "text": "contact",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " information"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "1bcf91d7-acdb-4583-abca-927d6efb0730",
+  "name": "Contact us",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "support.contacts",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Email us at support@example.com for any questions regarding our products and services."
+        }
+      ],
+      "defaultResponsePlatforms": [
+        "slack"
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

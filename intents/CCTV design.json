@@ -1,0 +1,162 @@
+{
+  "templates": [
+    "greetings",
+    "good morning",
+    "gm",
+    "goodmorning",
+    "good day",
+    "hello",
+    "hi",
+    "how to design a CCTV surveillance system",
+    "how to design",
+    "CCTV designs"
+  ],
+  "userSays": [
+    {
+      "id": "47af2cf2-2a1e-48dd-94cd-f2765f57cea4",
+      "data": [
+        {
+          "text": "greetings"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "a1524832-596b-4f34-bdaf-e1a41a46c277",
+      "data": [
+        {
+          "text": "good morning"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "86222fda-2506-4dc6-a731-112bc3a473e8",
+      "data": [
+        {
+          "text": "gm"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "91a0fa34-52e2-4fea-8c3a-911ee5357e85",
+      "data": [
+        {
+          "text": "goodmorning"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "677cf195-0857-405b-81ef-2393748fac76",
+      "data": [
+        {
+          "text": "good day"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1a35bee6-9332-447b-8302-246b6f055efe",
+      "data": [
+        {
+          "text": "hello"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "16b1445a-1c68-4020-974c-092b41fd5eba",
+      "data": [
+        {
+          "text": "hi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4df915bc-9561-4e75-a01a-6d298fba4cd6",
+      "data": [
+        {
+          "text": "how to design a CCTV surveillance system"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3f9d5696-264c-447a-9b0e-02240a786534",
+      "data": [
+        {
+          "text": "how to design"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b56612fe-916a-45cb-9b42-90ce99ea022f",
+      "data": [
+        {
+          "text": "CCTV designs"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "cb4bf9bd-757b-44cc-87f9-c50e77de7e7e",
+  "name": "CCTV design",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "Question-1",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@Premises",
+          "name": "premises",
+          "value": "Defence",
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Would you like to share the kind of premises is it? Building / Industrial / Defence / Transportation",
+            "Please tell me the premises type.  Building / Industrial / Defence / Transportation",
+            "What is the premises type? Building/ (Industry/factory) / (Military Base/ Air Base / Naval Station) / (Railway / bus /Airport)"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": [
+        "facebook"
+      ]
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

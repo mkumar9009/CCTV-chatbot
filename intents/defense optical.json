@@ -1,0 +1,65 @@
+{
+  "templates": [
+    "Optical Cameras",
+    "optical"
+  ],
+  "userSays": [
+    {
+      "id": "7424f7c7-5fe6-4f41-bac3-79edda0f06a1",
+      "data": [
+        {
+          "text": "Optical Cameras"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "14465932-d690-42f2-878d-8a12504ec4ff",
+      "data": [
+        {
+          "text": "optical"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "9f901b28-837b-4a4e-9d58-01f78a89296e",
+  "name": "defense optical",
+  "auto": true,
+  "contexts": [
+    "question-12"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "question-12",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "This camera,having model no VG5-7230-EPC5, may fulfil l your requirement."
+        }
+      ],
+      "defaultResponsePlatforms": [
+        "facebook"
+      ]
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

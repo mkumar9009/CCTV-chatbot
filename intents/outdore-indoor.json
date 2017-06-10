@@ -1,0 +1,137 @@
+{
+  "templates": [
+    "Hd720p",
+    "HD720p",
+    "@sys.number:number p/ @sys.number:number1 K",
+    "HD720p1080p",
+    "@sys.number:number p"
+  ],
+  "userSays": [
+    {
+      "id": "72f2960c-059f-4b2b-9fd4-4ca3fe585cd2",
+      "data": [
+        {
+          "text": "Hd720p"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "57c984b6-63d1-44a9-bb5d-a5d3deaf14d4",
+      "data": [
+        {
+          "text": "HD720p"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "16b85d45-7f5a-454b-95a3-bc47474fee9a",
+      "data": [
+        {
+          "text": "10800",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": false
+        },
+        {
+          "text": "p/"
+        },
+        {
+          "text": "4",
+          "alias": "number1",
+          "meta": "@sys.number",
+          "userDefined": false
+        },
+        {
+          "text": "K"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5e905e1c-18fc-4ec1-a72d-ae1327e75fc0",
+      "data": [
+        {
+          "text": "HD720p1080p"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "3931799c-c790-4213-9d8b-a6e494d15eb0",
+      "data": [
+        {
+          "text": "720",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": false
+        },
+        {
+          "text": "p"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "f1015e93-a6fd-4b14-80d1-e55ae24ae454",
+  "name": "outdore/indoor",
+  "auto": true,
+  "contexts": [
+    "question-9"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "question-9",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "question-10",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": false
+        },
+        {
+          "dataType": "@sys.number",
+          "name": "number1",
+          "value": "$number1",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Do you need outdoor ready or indoor ready camera ?"
+        }
+      ],
+      "defaultResponsePlatforms": [
+        "facebook"
+      ]
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

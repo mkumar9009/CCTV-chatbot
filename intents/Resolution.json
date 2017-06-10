@@ -1,0 +1,75 @@
+{
+  "templates": [
+    "@sys.time-period:time-period ",
+    "day"
+  ],
+  "userSays": [
+    {
+      "id": "8fa6a8b7-f4e9-4b84-b7b4-5ec3383ae549",
+      "data": [
+        {
+          "text": "night",
+          "alias": "time-period",
+          "meta": "@sys.time-period",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "aa6df405-5079-4f9c-97a9-f23e80f4e3db",
+      "data": [
+        {
+          "text": "day"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "323a5079-6fb3-4dd0-8360-cdfdd7c3e525",
+  "name": "Resolution",
+  "auto": true,
+  "contexts": [
+    "question-8"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "question-9",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@sys.time-period",
+          "name": "time-period",
+          "value": "$time-period",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Input taken. What kind of resolution you would like to choose?  HD720p or  1080p/4k"
+        }
+      ],
+      "defaultResponsePlatforms": [
+        "facebook"
+      ]
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

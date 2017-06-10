@@ -1,0 +1,120 @@
+{
+  "templates": [
+    "high focus areas",
+    "reception",
+    "exits",
+    "main entrance",
+    "parking",
+    "parking ground",
+    "Perimeter"
+  ],
+  "userSays": [
+    {
+      "id": "2e8037c9-4a32-486c-94b9-27cdc6955fa3",
+      "data": [
+        {
+          "text": "high focus areas"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "423679f5-4264-476f-82f7-55006a2432f3",
+      "data": [
+        {
+          "text": "reception"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f29ec097-418b-4102-afa9-2156855980ff",
+      "data": [
+        {
+          "text": "exits"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ddfc58a6-d047-4163-a2f8-59f0f3f174d9",
+      "data": [
+        {
+          "text": "main entrance"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2965743c-c837-43e2-902f-a4beaa65bd9f",
+      "data": [
+        {
+          "text": "parking"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0de6cd0e-c55e-4f13-a08f-a429baf1b4f6",
+      "data": [
+        {
+          "text": "parking ground"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "528c1d80-f0e2-44cb-ad7a-dab5fdf2ba6c",
+      "data": [
+        {
+          "text": "Perimeter"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "d78c5cbb-b5d5-4a0b-93fc-9c930fc992c3",
+  "name": "Calculate Field View",
+  "auto": true,
+  "contexts": [
+    "question-4"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "question-4-1",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "What is the maximum distance, in meters, of object you want to see ? Like 5 meter, 50 meter, 100m , 200m"
+        }
+      ],
+      "defaultResponsePlatforms": [
+        "facebook"
+      ]
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,69 @@
+{
+  "templates": [
+    "@sys.unit-length:unit-length "
+  ],
+  "userSays": [
+    {
+      "id": "1d4641b7-4a61-4ecf-ab05-3d487e6aca69",
+      "data": [
+        {
+          "text": "100m",
+          "alias": "unit-length",
+          "meta": "@sys.unit-length",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "9a66892d-6405-4784-967f-692e8ed5291c",
+  "name": "proper illumination",
+  "auto": true,
+  "contexts": [
+    "question-12"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "question-12",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "question-13",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@sys.unit-length",
+          "name": "unit-length",
+          "value": "$unit-length",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Whats illumination level ? Proper or improper ?"
+        }
+      ],
+      "defaultResponsePlatforms": [
+        "facebook"
+      ]
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": []
+}

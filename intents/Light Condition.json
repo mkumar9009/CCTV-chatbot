@@ -1,0 +1,81 @@
+{
+  "templates": [
+    "high",
+    "high sensitive",
+    "high sensitivity"
+  ],
+  "userSays": [
+    {
+      "id": "5c0c45b7-55bc-4d69-b4e0-fcf7350bed1f",
+      "data": [
+        {
+          "text": "high"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c42d8e39-dfce-4801-99f9-aa8ca21fa2bf",
+      "data": [
+        {
+          "text": "high sensitive"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a9970c91-41ec-4588-b4b1-4afaa29153a1",
+      "data": [
+        {
+          "text": "high sensitivity"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "cf00bcb7-41ce-4402-85fa-74d396e80784",
+  "name": "Light Condition",
+  "auto": true,
+  "contexts": [
+    "question-5-6"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "question-8",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "question-5-6",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "What is the lightning condition in which you would like to use the camera? Day /Night"
+        }
+      ],
+      "defaultResponsePlatforms": [
+        "facebook"
+      ]
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}
